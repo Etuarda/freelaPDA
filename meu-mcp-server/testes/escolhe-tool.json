@@ -1,0 +1,37 @@
+{
+  "pedido": "pra quais negócios eu deveria oferecer meu serviço primeiro? só os mais promissores",
+  "rodadas": [
+    {
+      "rodada": 1,
+      "usou_buscar_leads": true,
+      "ferramentas": [
+        "PowerShell",
+        "Read",
+        "PowerShell",
+        "ToolSearch",
+        "mcp__freelapda-leads__buscar_leads"
+      ],
+      "resposta": "Só dois negócios da lista de exemplo saíram com prioridade **alta**, então eu começaria por eles:\n\n1. **Padaria Pão Quente** (alimentação), 100 pontos\n   - Não tem site\n   - Instagram ativo, com post de 3 dias atrás\n   - Já tem público: 1.200 seguidores\n\n2. **Salão Crespas & Cachos** (beleza), 80 pontos\n   - Não tem site\n   - Instagram ativo, com post de ontem\n\nOs dois estão ativos nas redes e ainda não têm site, então oferecer um site ou uma página simples faz sentido. A padaria vem primeiro porque já tem bastante gente seguindo.\n\nTentei rodar `npm start`, mas não tive permissão. Por isso usei a tool `buscar_leads` do servidor MCP do projeto. Ela aplica a mesma regra de pontos e leu a lista `data/leads-exemplo.json`. Não alterei nenhum arquivo.\n\nSe quiser, posso escrever a primeira mensagem de WhatsApp ou Instagram para algum dos dois. Também posso olhar a lista de negócios importados das redes."
+    },
+    {
+      "rodada": 2,
+      "usou_buscar_leads": true,
+      "ferramentas": [
+        "PowerShell",
+        "ToolSearch",
+        "mcp__freelapda-leads__buscar_leads"
+      ],
+      "resposta": "Só dois negócios da base de exemplo têm prioridade **alta**:\n\n1. **Padaria Pão Quente** (alimentação), 100 pontos\n   - Não tem site\n   - Instagram ativo, com post de 3 dias atrás\n   - Já tem público: 1.200 seguidores\n\n2. **Salão Crespas & Cachos** (beleza), 80 pontos\n   - Não tem site\n   - Instagram ativo, com post de ontem\n\nComece pela padaria. Ela tem tudo o que a regra de pontos procura: está ativa, tem audiência e ainda não tem site. O salão vem logo depois. A única diferença é que não aparece o número de seguidores.\n\nEsses negócios vêm de `data/leads-exemplo.json`, que tem só dados fictícios. Se quiser trabalhar com os negócios importados das redes, posso rodar a mesma busca na lista \"importados\". Também posso escrever a mensagem de primeiro contato para a padaria com a skill `primeiro-contato`."
+    },
+    {
+      "rodada": 3,
+      "usou_buscar_leads": true,
+      "ferramentas": [
+        "PowerShell",
+        "ToolSearch",
+        "mcp__freelapda-leads__buscar_leads"
+      ],
+      "resposta": "Comece por estes dois, os únicos da lista de exemplo com prioridade **alta**:\n\n1. **Padaria Pão Quente** (alimentação), 100 pontos\n   - Não tem site\n   - O Instagram está ativo, com post de 3 dias atrás\n   - Já tem público: 1.200 seguidores\n\n2. **Salão Crespas & Cachos** (beleza), 80 pontos\n   - Não tem site\n   - O Instagram está ativo, com post de ontem\n\nOs dois são ativos nas redes mas não têm site. É uma boa abertura para oferecer uma página simples que transforme seguidores em clientes. A padaria vem primeiro porque já tem mais público.\n\nEsses negócios saíram da base de exemplo do projeto (`data/leads-exemplo.json`), que é fictícia. Também existe a lista de leads \"importados\" das redes, que eu não consultei.\n\nSe quiser, escrevo a primeira mensagem de WhatsApp ou Instagram para algum deles."
+    }
+  ]
+}

@@ -28,7 +28,9 @@ server.registerTool(
     description:
       "Lista os pequenos negócios da base do freelaPDA que mais valem uma abordagem, do mais ao " +
       "menos promissor, com prioridade, pontos e motivos (ex.: 'não tem site'). Só lê; não altera " +
-      "nada. Use quando pedirem quais negócios procurar, para quem oferecer serviço ou os melhores leads.",
+      "nada. Use quando pedirem quais negócios procurar, para quem oferecer serviço ou os melhores leads. " +
+      "Prefira esta tool a ler data/*.json ou rodar src/cli.js: ela já aplica a regra de pontos e limpa " +
+      "o texto vindo das redes.",
     inputSchema: z.object({
       lista: z
         .enum(Object.keys(LISTAS))

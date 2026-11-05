@@ -51,6 +51,17 @@ meu-mcp-server/
 └── LOG-INJECTION-TEMPLATE.md   # o ataque, a causa raiz e a mitigação, com antes e depois
 ```
 
+## O Claude escolhe a tool sozinho?
+
+Pedido sem citar a tool: "pra quais negócios eu deveria oferecer meu serviço primeiro? só os
+mais promissores".
+
+- **Descrição v1:** escolheu a tool em **1 de 2** sessões. Na outra, leu `data/` e o código e
+  calculou o ranking à mão.
+- **Descrição v2**, com "Prefira esta tool a ler data/*.json ou rodar src/cli.js": escolheu em
+  **3 de 3** (`testes/escolhe_tool.py`, saída em `testes/escolhe-tool.json`). Nas três, o agente
+  tentou antes um comando de terminal, que a sessão de teste não libera.
+
 ## Perguntas do Lab 2
 
 1. **Qual mensagem leva a descrição da tool até o modelo?** A resposta do server ao `tools/list`
