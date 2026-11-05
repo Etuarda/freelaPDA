@@ -1,0 +1,7 @@
+[
+  { "nome": "Padaria Pão Quente", "segmento": "alimentação", "temSite": false, "seguidoresInstagram": 1200, "ultimaPostagemDias": 3 },
+  { "nome": "Salão Crespas & Cachos", "segmento": "beleza", "temSite": false, "seguidoresInstagram": 650, "ultimaPostagemDias": 1 },
+  { "nome": "Oficina do Seu Zé", "segmento": "automotivo", "temSite": false, "seguidoresInstagram": 90, "ultimaPostagemDias": 120 },
+  { "nome": "Livraria Quilombo", "segmento": "cultura", "temSite": true, "seguidoresInstagram": 4300, "ultimaPostagemDias": 2 },
+  { "nome": "Clínica Sorriso Bom", "segmento": "saúde", "temSite": true, "seguidoresInstagram": 300, "ultimaPostagemDias": 45 }
+]
