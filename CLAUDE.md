@@ -36,5 +36,5 @@ Especialização em IA, domínio 2).
 
 ## Onde este projeto está
 
-- Repositório: https://github.com/ettuarda/captacao-freelas
+- Repositório: https://github.com/Etuarda/captacao-freelas
 - Quem espera isso funcionar: os alunos da PDA que fazem freela e precisam achar clientes.
