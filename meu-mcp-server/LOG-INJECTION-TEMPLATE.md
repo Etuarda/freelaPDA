@@ -2,8 +2,10 @@
 
 O repositório do curso não traz um `LOG-INJECTION-TEMPLATE.md`; este segue os campos que a
 rubrica pede (payload exato, o que o agente fez, causa raiz ligada ao OWASP, mitigação, antes
-e depois). O alvo é o meu próprio server. As saídas completas de cada rodada estão em
-`testes/ataque-*.json` e o script do ataque em `testes/atacar.py`.
+e depois). O alvo é o meu próprio server. O script do ataque está em `testes/atacar.py`, e as
+saídas completas das rodadas 1, 2 e 3 em `testes/ataque-antes.json`,
+`testes/ataque-antes-com-write.json` e `testes/ataque-depois-com-write.json`. A saída da rodada 0
+foi sobrescrita quando repeti o teste citando a tool; ela está descrita só aqui.
 
 ## Alvo
 
